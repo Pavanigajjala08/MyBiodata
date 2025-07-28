@@ -43,6 +43,10 @@ const Sample = () => {
         window.open("https://shuttleq.com/");
     }
 
+    const OnHrvms=()=>{
+        window.open("https://www.ehrvms.com/");
+    }
+
     const generateWord = () => {
         // const content = document.querySelector('.Pdf');
         // if (content) {
@@ -127,7 +131,7 @@ const Sample = () => {
                             <h5 class="text-start">
                                 <strong>Backend Development: </strong>
                             </h5>
-                            <p>Proficient in ASP.NET Core, C#, Web API, and microservices architecture. Skilled in creating secure, optimized APIs and backend systems that ensure seamless application performance.</p>
+                            <p className='text-start'>Proficient in ASP.NET Core, C#, Web API, and microservices architecture. Skilled in creating secure, optimized APIs and backend systems that ensure seamless application performance.</p>
                             <h5 class="text-start">
                                 <strong>Front Development: </strong>
                             </h5>
@@ -158,6 +162,47 @@ const Sample = () => {
                         <h1 className='text-primary text-start'>
                             Experience
                         </h1>
+                    </div>
+                      <div className='m-3 p-3'>
+                        <div>
+                            <h4 className='text-start'>
+                                Software Engineer | Full-Stack .NET Developer
+                            </h4>
+                            <h5 className="d-flex justify-content-between text-dark fw-bold">
+                                <span
+                                    className='Fullstackdata'
+                                    style={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}
+                                    onClick={() => {
+                                        OnHrvms()
+                                    }}
+                                >HRVMS (Human Resource Vendor Management System)</span>
+                                <span className='Fullstackdata'>March-2025 To Present</span>
+                            </h5>
+                            <h6 className='text-start'>
+                              HRVMS is a SaaS-based, user-friendly application designed to help organizations maintain detailed records of their employees. It empowers employees to create timesheets, raise employee service requests, and manage their tasks effortlessly with a single click. HRVMS aims to streamline internal HR operations and enhance employee satisfaction by providing a centralized, accessible platform.
+                            </h6>
+                           <p className="text-start">
+                            <strong>Features & Deliverables:</strong>
+                            <br />
+                            Collaborated with UI/UX designers to bridge the gap between visual design and technical implementation, ensuring a smooth and intuitive user experience.
+                            <br />
+                            Implemented responsive and adaptive design using HTML, CSS, JavaScript, jQuery, and React.js Web APIs.
+                            <br />
+                            Developed user interfaces aligned with web design and development principles for optimal performance and maintainability.
+                            <br />
+                            Ensured cross-browser compatibility through extensive testing across modern browsers.
+                            <br />
+                            Maintained brand standards while consulting on UI best practices and front-end coding conventions.
+                            <br />
+                            Performed code merging and participated in build and release management activities.
+                            <br />
+                            Documented use cases to support development clarity and QA processes.
+                            <br />
+                            Applied asynchronous programming techniques to enhance responsiveness and performance.
+                            <br />
+                            Followed layered architecture by separating UI components from the logic layer, improving scalability and code organization.
+                            </p>
+                        </div>
                     </div>
                     <div className='m-3 p-3'>
                         <div>
@@ -255,6 +300,40 @@ const Sample = () => {
                     </div>
                     <hr></hr>
                     <div className='m-3 p-3'>
+                <h1 className='text-start text-primary'>Professional Experience</h1>
+                <div className='mb-3'>
+                    <h5 className='text-start'>Full-Stack .NET Developer - Client-Server Technology</h5>
+                    <h6 className='text-start text-muted'>March 2025 - Present</h6>
+                    <ul className='text-start'>
+                    <li>Working on enterprise-level applications using ASP.NET Core and React.js.</li>
+                    <li>Involved in developing REST APIs, integrating Azure Functions,Blob Storage, and managing deployments.</li>
+                    <li>Participated in Agile/Scrum ceremonies and used JIRA for project tracking.</li>
+                    </ul>
+                </div>
+
+                <div className='mb-3'>
+                    <h5 className='text-start'>Full-Stack .NET Developer - Dividant Business Solutions Private Limited</h5>
+                    <h6 className='text-start text-muted'>July 2024 - Nov 2024</h6>
+                    <ul className='text-start'>
+                    <li>Developed and maintained web UI using React, Bootstrap, and RESTful APIs.</li>
+                    <li>Worked with Git CI/CD pipelines and followed best practices in responsive design.</li>
+                    <li>Collaborated closely with UX teams to ensure high-quality UI implementation.</li>
+                    </ul>
+                </div>
+
+                <div className='mb-3'>
+                    <h5 className='text-start'>Junior Developer - Iblesoft Private Limited</h5>
+                    <h6 className='text-start text-muted'>Nov-2021 - July-2024</h6>
+                    <ul className='text-start'>
+                    <li>Contributed to backend logic in ASP.NET MVC and SQL Server-based systems.</li>
+                    <li>Supported ongoing enhancements and participated in QA support cycles.</li>
+                    <li>Learned Agile processes and worked under the mentorship of senior developers.</li>
+                    </ul>
+                </div>
+                </div>
+
+                    <hr></hr>
+                    <div className='m-3 p-3'>
                         <h1 className='text-primary text-start'>
                             Education
                         </h1>
@@ -313,19 +392,22 @@ const Sample = () => {
                             <h3 className='text-start skillsColor'>Programming Languages & Frameworks</h3>
                             <h6 className='text-start '>C#, ASP.NET Core (Web API, MVC)</h6>
                             <h6 className='text-start'>React.js (Reactstrap, Redux Toolkit)</h6>
-                            <h6 className='text-start'>JavaScript</h6>
+                            <h6 className='text-start'>JavaScript,Angular</h6>
                             <h3 className='text-start skillsColor'>Databases & ORM</h3>
                             <h6  className='text-start'> SQL Server, Entity Framework Core</h6>
                             <h6 className='text-start'>LINQ</h6>
                             <h2 className='text-start skillsColor'>Cloud & DevOps</h2>
-                            <h6 className='text-start'>Azure Functions</h6>
+                            <h6 className='text-start'>Azure Functions,Blob Storage</h6>
                             <h2 className='text-start skillsColor'>Frontend Development</h2>
                             <h6 className='text-start'>ReactJs</h6>
                             <h6 className='text-start'>Bootstrap, Reactstrap, CSS</h6>
                             <h2 className='text-start skillsColor'>Other Technologies & Tools</h2>
                             <h6 className='text-start'>RESTful APIs, JWT Authentication</h6>
-                            <h6 className='text-start'>Version Control (Git, GitHub, GitLab, Bitbucket)</h6>
+                            <h6 className='text-start'>Version Control (AzureDevOps,Git, GitHub, GitLab, Bitbucket)</h6>
                             <h6 className='text-start'>Postman (API Testing)</h6>
+                            <h2 className='text-start skillsColor'>Project Management & Agile Tools</h2>
+                            <h6 className='text-start'>JIRA (Task Tracking & Sprint Planning)</h6>
+                            <h6 className='text-start'>Scrum Methodology</h6>
                             </div>
                         </div>
                     </div>
